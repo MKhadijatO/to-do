@@ -68,7 +68,7 @@ input{
     /* font-size: 22px; */
 
 }
-
+ 
 .task li {
     list-style: none;
     flex: 4;
@@ -77,24 +77,23 @@ input{
     margin: 10px;
 }
 
-.checkTask {
-    flex: 4;
-    font-size: 1.2rem;
-
+.task button {
+    flex: 1;
     background-color: #ffffff;
-    color: green;
-    
-    
-    border: none;
     border-radius: 5px;
+    cursor: pointer;
     
 }
 
-.deleteTask {
-    background-color: #ffffff;
-    color: #00000090;
-    font-size: 1.2rem;
-    border: none;
-    padding: 5px;
-    margin-right: 10px;
+.task .checkTask {
+    color: orange;
+    border: 1px solid #333333;
+    margin-right: 5px ;
+    
+    
+}
+
+.task .deleteTask {
+    color: orangered;
+    border: 1px solid #333333;
 }
