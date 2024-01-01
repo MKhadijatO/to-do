@@ -8,6 +8,7 @@ body {
     background: url(image1.png) no-repeat center center/cover;
 
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -49,4 +50,35 @@ input{
 #add-task:hover {
     background-color: green;
     color: #ffffff;
+}
+
+.task {
+    width: 350px;
+    margin: 10px auto;
+    padding: 10px 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: green;
+    color: #ffffff;
+    font-size: 22px;
+
+}
+
+.checkTask {
+    background-color: #ffffff;
+    color: green;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.deleteTask {
+    background-color: #ffffff;
+    color: #00000090;
+    font-size: 1.2rem;
+    border: none;
+    padding: 5px;
+    margin-right: 10px;
 }

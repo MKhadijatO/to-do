@@ -16,10 +16,10 @@ addTask.addEventListener('click', () =>{
     checkButton.classList.add('checkTask');
     task.appendChild(checkButton);
 
-    let dleteButton = document.createElement("button");
-    dleteButton.innerHTML = '<i class="fas fa-solid fa-trash-can"></i>';
-    dleteButton.classList.add('deleteTask');
-    task.appendChild(dleteButton)
+    let deleteButton = document.createElement("button");
+    deleteButton.innerHTML = '<i class="fas fa-solid fa-trash"></i>';
+    deleteButton.classList.add('deleteTask');
+    task.appendChild(deleteButton)
 
     if (inputTask.value === ""){
         alert('Please enter a task');
