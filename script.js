@@ -26,4 +26,6 @@ addTask.addEventListener('click', () =>{
     }else{
         taskContainer.appendChild(task);
     }
+
+    inputTask.value = "";
 })
